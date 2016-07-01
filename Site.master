@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dragon | <%: Page.Title %></title>
+
+    <script type="text/javascript" src="/Scripts/html5shiv.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-1.10.2.intellisense.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.inview.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.isotope.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="/Scripts/main.js"></script>
+    <script type="text/javascript" src="/Scripts/modernizr-2.6.2.js"></script>
+    <script type="text/javascript" src="/Scripts/mousescroll.js"></script>
+    <script type="text/javascript" src="/Scripts/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/Scripts/smoothscroll.js"></script>
+    <script type="text/javascript" src="/Scripts/wow.min.js"></script>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+
+    </asp:PlaceHolder>
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="jquery.ui.combined" />         
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Path="/Scripts/html5shiv.js" />
+                <asp:ScriptReference Path="/Scripts/jquery-1.10.2.intellisense.js" />
+                <asp:ScriptReference Path="/Scripts/jquery.inview.js" />
+                <asp:ScriptReference Path="/Scripts/jquery.isotope.js" />
+                <asp:ScriptReference Path="/Scripts/jquery.prettyPhoto.js" />
+                <asp:ScriptReference Path="/Scripts/main.js" />
+                <asp:ScriptReference Path="/Scripts/modernizr-2.6.2.js" />
+                <asp:ScriptReference Path="/Scripts/mousescroll.js" />
+                <asp:ScriptReference Path="/Scripts/owl.carousel.min.js" />
+                <asp:ScriptReference Path="/Scripts/smoothscroll.js" />
+                <asp:ScriptReference Path="/Scripts/wow.min.js" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header" style="background-color:black">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="<%= Page.ResolveUrl("~/index.aspx") %>"><img src="~/images/logo.png" runat="server" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll active"><a href="<%= Page.ResolveUrl("~/index.aspx") %>">Home</a></li>
+                        <li class="scroll"><a href="<%= Page.ResolveUrl("~/history.aspx") %>">History</a></li>
+                        <li class="scroll dropdown">
+                            <a class="dropbtn" href="<%= Page.ResolveUrl("~/species.aspx") %>">Species</a>
+                            <div class="dropdown-content">
+                                <a href="<%= Page.ResolveUrl("~/Species/BritishDragons.aspx") %>">British Dragons</a>
+                                <a href="<%= Page.ResolveUrl("~/Species/ChineseDragons.aspx") %>">Chinese Dragons</a>
+                                <a href="<%= Page.ResolveUrl("~/Species/FrenchDragons.aspx") %>">French Dragons</a>
+                                <a href="<%= Page.ResolveUrl("~/Species/JapaneseDragons.aspx") %>">Japanese Dragons</a>
+                                <a href="<%= Page.ResolveUrl("~/Species/PrussianDragons.aspx") %>">Prussian Dragons</a>
+                                <a href="<%= Page.ResolveUrl("~/Species/SpanishDragons.aspx") %>">Spanish Dragons</a>
+                                <a href="<%= Page.ResolveUrl("~/Species/TurkishDragons.aspx") %>">Turkish Dragons</a>
+                                <a href="<%= Page.ResolveUrl("~/Species/IncanDragons.aspx") %>">Incan Dragons</a>
+                                <a href="<%= Page.ResolveUrl("~/Species/OtherDragons.aspx") %>">Other Dragons</a>
+                            </div>
+                        </li>
+                        <li class="scroll"><a href="<%= Page.ResolveUrl("~/location.aspx") %>">Location</a></li>
+                        <li class="scroll"><a href="<%= Page.ResolveUrl("~/news.aspx") %>">News</a></li>
+                        <li class="scroll"><a href="<%= Page.ResolveUrl("~/art.aspx") %>">Art</a></li>                                
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+
+        <div class="body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+ 
+            <footer style="background-color:black">
+                           <hr/>
+               
+                <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                    <a class="text-center" href="<%= Page.ResolveUrl("~/index.aspx") %>"><img src="~/images/logo.png" runat="server" alt="logo"></a>
+                </div>
+                </div>
+                <p class="text-center">&copy; <%: DateTime.Now.Year %> - Krizia Camille Uayan BSIT 4-3</p>
+                </div>
+            </footer>
+        </div>
+    </form>
+</body>
+
+     <script type="text/javascript">
+         $(document).ready(function () {
+             var url = window.location.pathname;
+             var substr = url.split('/');
+             var urlaspx = substr[substr.length - 1];
+             $('.nav').find('.active').removeClass('active');
+             $('.nav li a').each(function () {
+                 if (this.href.indexOf(urlaspx) >= 0) {
+                     $(this).parent().addClass('active');
+                 }
+             });
+         });
+    </script>
+
+</html>
