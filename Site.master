@@ -80,7 +80,7 @@
                         <li class="scroll active"><a href="<%= Page.ResolveUrl("~/index.aspx") %>">Home</a></li>
                         <li class="scroll"><a href="<%= Page.ResolveUrl("~/history.aspx") %>">History</a></li>
                         <li class="scroll dropdown">
-                            <a class="dropbtn" href="<%= Page.ResolveUrl("~/species.aspx") %>">Species</a>
+                            <a class="dropbtn" href="<%= Page.ResolveUrl("~/mainspecies.aspx") %>">Species</a>
                             <div class="dropdown-content">
                                 <a href="<%= Page.ResolveUrl("~/Species/BritishDragons.aspx") %>">British Dragons</a>
                                 <a href="<%= Page.ResolveUrl("~/Species/ChineseDragons.aspx") %>">Chinese Dragons</a>
@@ -93,9 +93,9 @@
                                 <a href="<%= Page.ResolveUrl("~/Species/OtherDragons.aspx") %>">Other Dragons</a>
                             </div>
                         </li>
-                        <li class="scroll"><a href="<%= Page.ResolveUrl("~/location.aspx") %>">Location</a></li>
                         <li class="scroll"><a href="<%= Page.ResolveUrl("~/news.aspx") %>">News</a></li>
-                        <li class="scroll"><a href="<%= Page.ResolveUrl("~/art.aspx") %>">Art</a></li>                                
+                        <li class="scroll"><a href="<%= Page.ResolveUrl("~/art.aspx") %>">Art</a></li>
+                        <li class="scroll"><a href="<%= Page.ResolveUrl("~/gallery.aspx") %>">Gallery</a></li>                                
                     </ul>
                 </div>
             </div><!--/.container-->
