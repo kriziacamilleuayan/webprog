@@ -17,14 +17,15 @@
 
          <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-8">
-              <p><b><span class="red">Ka-Riu</span></b></p>
-              <p  style="color: #999999">A Japanese breed also capable of vitriol.The Ka-Riu is one of only three known breeds of dragons that are capable of vitrolic attack. The other two are the Copacati and the Longwing.In Japanese mythology, the Ka-Riu was a small dragon; seven feet long, that was scarlet-coloured, and in some versions made of fire. It was one of several "Dragon Kings", including Sui Riu, Han-Riu, Ri-Riu, Fuku Riu & Hai-riyo. Because the two known Japanese dragon breeds use these names, it could be assumed that the other names are as yet unseen breeds.</p>
+              <p><b><span class="red">Berghexe (Mountain witch)</span></b></p>
+              <p  style="color: #999999">Chazara briseis, a butterfly with brown and cream wings. A Prussian middleweight. Name means "Mountain witch." The name means "Mountain Witch", and the Berghexe is a breed known for preferring an alpine habitat. These dragons are smallish middleweights with a flight profile similar to the peregrine falcone, with slender, pointed wings that have a distinctive bend in them. Berghexes typically hunt on the wing, like giant birds of prey, and can achieve startling speeds when they stoop and dive on prey. They are native to the Alps, where they originated in a somewhat smaller breed that lived by hunting other, smaller dragons as they flew through its territory. Berghexes are dark-colored, with pale underbellies and wings with dark grey bodies. They have particularly long, narrow snouts, and their muzzles are a bright green shade that streaks back over their eyes like masks. They have spotty stripes of a similar color running down their back and banding the tails. The Berghexe's wings are slender and pointed for speed, while its tail is short and flattened for better maneuverability. Though it has armored plates along the neck and shoulders like many Germanic dragons, in the Berghexe they are greatly reduced and of less value for defense.</p>
               <br />
           </div>
           <div class="col-sm-12 col-md-12 col-lg-4 text-right">
           <p>
-            <img src="~/images/species/drag15.jpg" runat="server" class="img-responsive" />
-               <p class="text-center" style="color: lightyellow">Ka-Riu, by Drummergirl375</p>
+              <br />
+            <img src="~/images/species/drag17.jpg" runat="server" class="img-responsive" />
+               <p class="text-center" style="color: lightyellow">Berghexe, by Kalia</p>
             </p>
           </div>
         </div>
@@ -33,13 +34,13 @@
         <div class="row">
          <div class="col-sm-12 col-md-12 col-lg-4 text-right">
           <p>
-            <img src="~/images/species/drag16.jpg" runat="server" class="img-responsive" />
-               <p class="text-center" style="color: lightyellow">Sui Riu, by Kalia</p>
+            <img src="~/images/species/drag18.jpg" runat="server" class="img-responsive" />
+               <p class="text-center" style="color: lightyellow">Mauerfuchs, by Drummergirl375</p>
             </p>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-8">
-              <p><b><span class="red">Sui Riu</span></b></p>
-              <p  style="color: #999999">A Japanese heavy weight which extends well over 200 feet in length, more than twice the size of the largest dragons in Europe, with deep greenish black scales. Incapable of flight, they instead possess 'water sacs' or 'glands' that increase their volume and mass depending on the body of water available to them. On land, they are the size of a Yellow Reaper, a middleweight. They become much larger when they enter rivers and lakes, and truly gargantuan if they enter the ocean, their body colour also changes paler as they expand. The Sui Riu is extraordinarily similar to a sea serpent in appearance, with the sole points of physical difference being the limbs and the stubby wings. Like the sea serpent, it can breathe underwater, but it possesses a keen intellect as well as the ability to ingest and violently expel large qualities of water. They are also capable of heating and discharging boiling water, if required. The Sui Riu is also more long lived than European dragons with a life span in excess of four hundred years.</p>
+              <p><b><span class="red">Mauerfuchs (Wall fox)</span></b></p>
+              <p  style="color: #999999">"Mauerfuchs" (literally "wall fox") is the German name for Lasiommata megera, a butterfly with predominantly brownish-grey wings patterned with russet/black eyespots and white scalloped borders.</p>
           </div>
         </div>
         </div>
