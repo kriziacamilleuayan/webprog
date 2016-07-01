@@ -17,7 +17,10 @@
                     <img src="~/images/species/drag3.jpg" runat="server" class="img-responsive" style="min-height: 100%; min-width: 100%;">
                     <div class="overlay">
                        <h2>British Dragons</h2>
-                       <a class="info" href="#"  style="min-height: 365px; min-width: 325px;">link here</a>
+                        <p style="color:gray">The treatment of dragons in Britain seems to be indicative of the treatment they have received in the rest of Europe and the Middle East, although this may not be the case.</p>
+                        <br /><br />
+                        <asp:HyperLink ID="HyperLink1" CssClass="info btn btn-1 btn-1c" NavigateUrl="~/Species/BritishDragons.aspx"
+                                runat="server">read More</asp:HyperLink>
                     </div>
                 </div>
             </div>
@@ -26,7 +29,9 @@
                     <img src="~/images/species/drag8.jpg" runat="server" class="img-responsive" style="min-height: 100%; min-width: 100%;">
                     <div class="overlay">
                        <h2>Chinese Dragons</h2>
-                       <a class="info" href="#"  style="min-height: 365px; min-width: 325px;">link here</a>
+                       <p style="color:gray">Chinese dragons traditionally symbolize potent and auspicious powers, particularly control over water, rainfall, typhoons, and floods. The dragon is also a symbol of power, strength, and good luck for people who are worthy of it.</p>
+                        <asp:HyperLink ID="HyperLink2" CssClass="info btn btn-1 btn-1c" NavigateUrl="~/Species/ChineseDragons.aspx"
+                                runat="server">read More</asp:HyperLink>
                     </div>
                 </div>
             </div>
@@ -35,7 +40,10 @@
                     <img src="~/images/species/drag12.jpg" runat="server" class="img-responsive" style="min-height: 100%; min-width: 100%;">
                     <div class="overlay">
                        <h2>French Dragons</h2>
-                       <a class="info" href="#"  style="min-height: 365px; min-width: 325px;">link here</a>
+                        <p style="color:gray">The French representation of dragons spans much of European history, and has even given its name to the dragoons, a type of cavalry.</p>
+                        <br /><br /><br />
+                        <asp:HyperLink ID="HyperLink3" CssClass="info btn btn-1 btn-1c" NavigateUrl="~/Species/FrenchDragons.aspx"
+                      runat="server">read More</asp:HyperLink>
                     </div>
                 </div>
             </div>
@@ -45,7 +53,10 @@
                     <img src="~/images/species/drag16.jpg" runat="server" class="img-responsive" style="min-height: 100%; min-width: 100%;">
                     <div class="overlay">
                        <h2>Japanese Dragons</h2>
-                       <a class="info" href="#"  style="min-height: 365px; min-width: 325px;">link here</a>
+                       <p style="color:gray">Most Japanese ones are water deities associated with rainfall and bodies of water, and are typically depicted as large, wingless, serpentine creatures with clawed feet.</p>
+                        <br /><br />
+                        <asp:HyperLink ID="HyperLink4" CssClass="info btn btn-1 btn-1c" NavigateUrl="~/Species/JapaneseDragons.aspx"
+                                runat="server">read More</asp:HyperLink>
                     </div>
                 </div>
             </div>
@@ -54,7 +65,10 @@
                     <img src="~/images/species/drag17.jpg" runat="server" class="img-responsive" style="min-height: 100%; min-width: 100%;">
                     <div class="overlay">
                        <h2>Prussian Dragons</h2>
-                       <a class="info" href="#"  style="min-height: 365px; min-width: 325px;">link here</a>
+                        <p style="color:gray">17th century, Prussian army was operating on the assumption that what had worked for Frederick would always continue to work, right down to the drills practiced by their dragons.</p>
+                       <br /><br />
+                        <asp:HyperLink ID="HyperLink5" CssClass="info btn btn-1 btn-1c" NavigateUrl="~/Species/PrussianDragons.aspx"
+                                runat="server">read More</asp:HyperLink>
                     </div>
                 </div>
             </div>
@@ -63,7 +77,9 @@
                     <img src="~/images/species/drag19.jpg" runat="server" class="img-responsive" style="min-height: 100%; min-width: 100%;">
                     <div class="overlay">
                        <h2>Spanish Dragons</h2>
-                       <a class="info" href="#"  style="min-height: 365px; min-width: 325px;">link here</a>
+                       <p style="color:gray">Spanish Dragons are awesome. Have you seen one, well sadly i haven't and beacause of that i want to train charizard and become a pokemon master. Sorry, I can't find any related topics to Spanish Dragons, but I think they're awesome.</p>
+                        <asp:HyperLink ID="HyperLink7" CssClass="info btn btn-1 btn-1c" NavigateUrl="~/Species/SpanishDragons.aspx"
+                                runat="server">read More</asp:HyperLink>
                     </div>
                 </div>
             </div>
@@ -73,7 +89,9 @@
                     <img src="~/images/species/drag23.jpg" runat="server" class="img-responsive" style="min-height: 100%; min-width: 100%;">
                     <div class="overlay">
                        <h2>Turkish Dragons</h2>
-                       <a class="info" href="#"  style="min-height: 365px; min-width: 325px;">link here</a>
+                        <p style="color:gray">It is believed, especially in mountainous Central Asia, that dragons still live in the mountains of Tian Shan/Tengri Tagh and Altay. Dragons also symbolize the god Tengri (Tanrı) in ancient Turkic tradition, although dragons themselves are not worshiped as gods.</p>
+                        <asp:HyperLink ID="HyperLink8" CssClass="info btn btn-1 btn-1c" NavigateUrl="~/Species/TurkishDragons.aspx"
+                                runat="server">read More</asp:HyperLink>
                     </div>
                 </div>
             </div>
@@ -82,7 +100,10 @@
                     <img src="~/images/species/drag24.jpg" runat="server" class="img-responsive" style="min-height: 100%; min-width: 100%;">
                     <div class="overlay">
                        <h2>Incan Dragons</h2>
-                       <a class="info" href="#"  style="min-height: 365px; min-width: 325px;">link here</a>
+                        <p style="color:gray">Incan dragons are distinct from other breeds in that they all possess feathers on their scales which, when raised, can make them seem almost twice their actual size and few, it seems, possess breath weapons.</p>
+                        <br />
+                        <asp:HyperLink ID="HyperLink6" CssClass="info btn btn-1 btn-1c" NavigateUrl="~/Species/IncanDragons.aspx"
+                                runat="server">read More</asp:HyperLink>
                     </div>
                 </div>
             </div>
@@ -91,7 +112,10 @@
                     <img src="~/images/species/drag29.jpg" runat="server" class="img-responsive" style="min-height: 100%; min-width: 100%;">
                     <div class="overlay">
                        <h2>Other Dragons</h2>
-                       <a class="info" href="#"  style="min-height: 365px; min-width: 325px;">link here</a>
+                       <p style="color:gray">This includs the feral dragons, african dragons, American breeds, russian breeds and other species the is similar to dragons.</p>
+                        <br /><br /><br /><br />
+                        <asp:HyperLink ID="HyperLink9" CssClass="info btn btn-1 btn-1c" NavigateUrl="~/Species/OtherDragons.aspx"
+                                runat="server">read More</asp:HyperLink>
                     </div>
                 </div>
             </div>
