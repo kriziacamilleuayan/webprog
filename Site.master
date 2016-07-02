@@ -80,8 +80,8 @@
                         <li class="scroll active"><a href="<%= Page.ResolveUrl("~/index.aspx") %>">Home</a></li>
                         <li class="scroll"><a href="<%= Page.ResolveUrl("~/history.aspx") %>">History</a></li>
                         <li class="scroll dropdown">
-                            <a class="dropbtn" href="<%= Page.ResolveUrl("~/mainspecies.aspx") %>">Species</a>
-                            <div class="dropdown-content">
+                            <a class="dropbtn" id="dropwebprog" href="<%= Page.ResolveUrl("~/mainspecies.aspx") %>">Species</a>
+                            <div class="dropdown-content" style="padding:0px;">
                                 <a href="<%= Page.ResolveUrl("~/Species/BritishDragons.aspx") %>">British Dragons</a>
                                 <a href="<%= Page.ResolveUrl("~/Species/ChineseDragons.aspx") %>">Chinese Dragons</a>
                                 <a href="<%= Page.ResolveUrl("~/Species/FrenchDragons.aspx") %>">French Dragons</a>
@@ -94,8 +94,15 @@
                             </div>
                         </li>
                         <li class="scroll"><a href="<%= Page.ResolveUrl("~/news.aspx") %>">News</a></li>
-                        <li class="scroll"><a href="<%= Page.ResolveUrl("~/art.aspx") %>">Art</a></li>
-                        <li class="scroll"><a href="<%= Page.ResolveUrl("~/gallery.aspx") %>">Gallery</a></li>                                
+                        <li class="scroll dropdown">
+                            <a class="dropbtn" href="<%= Page.ResolveUrl("~/art.aspx") %>">Art</a>
+                            <div class="dropdown-content" style="padding:0px;">
+                                <a href="<%= Page.ResolveUrl("~/Species/BritishDragons.aspx") %>">Drawings</a>
+                                <a href="<%= Page.ResolveUrl("~/Species/ChineseDragons.aspx") %>">Movies/Series</a>
+                                <a href="<%= Page.ResolveUrl("~/Species/JapaneseDragons.aspx") %>">Literature</a>
+                                <a href="<%= Page.ResolveUrl("~/Species/PrussianDragons.aspx") %>">Games</a>
+                            </div>
+                        </li>                                
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -123,6 +130,7 @@
 
      <script type="text/javascript">
          $(document).ready(function () {
+
              var url = window.location.pathname;
              var substr = url.split('/');
              var urlaspx = substr[substr.length - 1];
@@ -132,6 +140,9 @@
                      $(this).parent().addClass('active');
                  }
              });
+
+
+             
          });
     </script>
 

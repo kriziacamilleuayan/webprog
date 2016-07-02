@@ -101,7 +101,7 @@
                 </div>
                 </div>
                 </section>
-    <section id="cta" class="wow fadeIn">
+    <section id="cta" class="wow fadeIn" style="padding-top: 20px; padding-bottom: 20px;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-9">
@@ -109,6 +109,7 @@
                     <h3 style="color:white">Dragon</h3>
                     </div>
                     <p style="color: #999999">A <span class="red"><b>dragon</b></span> is a mythological representation of a reptile. In antiquity, dragons were mostly envisaged as serpents, but since the Middle Ages, it has become common to depict them with legs, resembling a lizard. Dragons are usually shown in modern times with a body like a huge lizard, or a snake with two pairs of lizard-type legs, and able to emit fire from their mouths. The European dragon has bat-like wings growing from its back. A dragon-like creature with wings but only a single pair of legs is known as a wyvern. </p>
+                    <p style="color: #999999">The two traditions may have evolved separately, but have influenced each other to a certain extent, particularly with the cross-cultural contact of recent centuries. The English word dragon derives from Greek δράκων (drákōn), "dragon, serpent of huge size, water-snake".</p>
                 </div>
                 <div class="col-sm-12 col-md-8 col-lg-3 text-right">
                 <p>
@@ -121,7 +122,7 @@
         </div>
     </section>
     <!--/#cta-->
-    <section id="features">
+    <section id="features" style="padding-bottom: 20px;">
         <div class="container">
             <div class="section-header">
                 <div class="border">
